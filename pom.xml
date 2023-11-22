@@ -10,11 +10,18 @@
   <version>1.0</version>
   <packaging>jar</packaging>
 
+  <properties>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+  </properties>
+
   <distributionManagement>
     <repository>
       <id>repsy</id>
       <name>My Private Maven Repositoty on Repsy</name>
-      <url>https://repo.repsy.io/mvn/firat/default</url>
+      <url>https://repo.repsy.io/mvn/YOUR_REPSY_USERNAME/default</url>
     </repository>
   </distributionManagement>
 </project>
